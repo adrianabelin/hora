@@ -1,0 +1,85 @@
+.logo {
+  background-image: url(../images/hora.svg);
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  background-repeat: no-repeat;
+}
+
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 800px solid #C7365D;
+  border-left: 800px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+.vertical-menu {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(../images/horamenu_alt.svg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-menu a {
+    display: block;
+    width: 60px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 12px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-menu a:hover {
+    background-color: #9B2240;
+}
+
+.first_page {
+    background-color: none;
+    height: 1000px;
+    width: 100%;
+    outline-color: red;
+    outline-style: solid;
+    outline-width: 5px;
+    /*position: relative; if you want the boxes on top of menu*/
+}
+
+.second_page {
+    background-color: none;
+    height: 1000px;
+    width: 100%;
+    outline-color: blue;
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+.third_page {
+    background-color: none;
+    height: 1000px;
+    width: 100%;
+    outline-color: yellow;
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+.fourth_page {
+    background-color: none;
+    height: 1000px;
+    width: 100%;
+    outline-color: orange;
+    outline-style: solid;
+    outline-width: 5px;
+}
