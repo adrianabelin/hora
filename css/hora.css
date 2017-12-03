@@ -1,25 +1,66 @@
+body {
+  margin: 0;
+}
+
 .logo {
   background-image: url(../images/hora.svg);
-  height: 50px;
-  width: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 30px;
+  width: 30px;
+  /*margin-left: auto;
+  margin-right: auto; only if you want the item to be centered*/
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 40px;
+  margin-left: 20px;
   background-repeat: no-repeat;
 }
 
 #triangle-topright {
-  width: 0;
-  height: 0;
-  border-top: 800px solid #C7365D;
-  border-left: 800px solid transparent;
+  width: 800px;
+  height: 800px;
+  /*border-top: 800px solid #C7365D;
+  border-left: 800px solid transparent;*/
+  background-image: url(../images/redtriangle.svg);
   position: absolute;
   top: 0;
   right: 0;
   z-index: 10;
 }
 
+ #triangle-up {
+   /*width: 0;
+   height: 0;*/
+   border-left: 300px solid transparent;
+   border-right: 600px solid transparent;
+   border-bottom: 600px solid #C7365D;
+   top: 30%;
+   right: 5%;
+   position: absolute;
+ }
+
+ #go_about {
+
+ }
+
+ #go_news {
+
+ }
+
+ #go_events {
+
+ }
+
+ #go_contact {
+
+ }
+
+
+ #paragraph1 {
+   width: 600px;
+   height: 300px;
+   left: 120px;
+   top: 20px;
+   position: absolute;
+ }
 
 .vertical-menu {
     width: 100px;
@@ -28,58 +69,54 @@
     top: 0;
     left: 0;
     background-image: url(../images/horamenu_alt.svg);
-    margin-left: auto;
-    margin-right: auto;
+    text-indent: 10px;
 }
 
 .vertical-menu a {
     display: block;
-    width: 60px;
+    width: 79px;
+    height: 30px;
     color: white;
     padding-left: 10px;
     padding-top: 12px;
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .vertical-menu a:hover {
     background-color: #9B2240;
 }
 
-.first_page {
+#about {
     background-color: none;
     height: 1000px;
     width: 100%;
-    outline-color: red;
+    /*outline-color: red;
     outline-style: solid;
-    outline-width: 5px;
+    outline-width: 5px; */
     /*position: relative; if you want the boxes on top of menu*/
 }
 
-.second_page {
-    background-color: none;
+#news {
+    background-color: #E0E0E0;
     height: 1000px;
     width: 100%;
-    outline-color: blue;
+    /*outline-color: blue;
     outline-style: solid;
-    outline-width: 5px;
+    outline-width: 5px;*/
 }
 
-.third_page {
+#events {
     background-color: none;
     height: 1000px;
     width: 100%;
-    outline-color: yellow;
+    /*outline-color: yellow;
     outline-style: solid;
-    outline-width: 5px;
+    outline-width: 5px;*/
 }
 
-.fourth_page {
-    background-color: none;
+#contact {
+    background-color: #E0E0E0;
     height: 1000px;
     width: 100%;
-    outline-color: orange;
-    outline-style: solid;
-    outline-width: 5px;
+
 }
