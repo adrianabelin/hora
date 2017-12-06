@@ -14,28 +14,160 @@ body {
   background-repeat: no-repeat;
 }
 
-#triangle-topright {
+/*#triangle-topright {
   width: 800px;
   height: 800px;
-  /*border-top: 800px solid #C7365D;
-  border-left: 800px solid transparent;*/
+  border-top: 800px solid #C7365D; <----commented
+  border-left: 800px solid transparent; <----commented
   background-image: url(../images/redtriangle.svg);
   position: absolute;
   top: 0;
   right: 0;
   z-index: 10;
+} */
+
+
+
+#third_triangle_lg {
+	width: 300px;
+	height: 300px;
+	border: solid #C63252 3px;
+	overflow: hidden; /* we need this to crop the image */
+	position: absolute;
+	top: 600px;	/* overall position of the red square */
+	right: 175px;
+	-webkit-transform: rotate(-40deg); /* css code to rotate something */
 }
 
- #triangle-up {
-   /*width: 0;
-   height: 0;*/
+#third_triangle_sm {
+	border: solid blue 3px;
+	position: absolute;
+	left: -100px; /* this moves the image within the red square */
+	top: -100px;
+	-webkit-transform: rotate(40deg); /* we rotate in the exact opposite direction to offset previous rotation */
+}
+
+#photos {
+    /*background: url(IMAGE_SOURCE); */
+  width: 800px;
+  height: 800px;
+  background: url(../images/photos.jpg);
+  background-color: #1D17A0;
+  background-blend-mode: screen;
+  background-size: 100%;
+}
+
+
+
+
+#second_triangle_lg {
+	width: 400px;
+	height: 400px;
+	border: solid #C63252 3px;
+	overflow: hidden; /* we need this to crop the image */
+	position: absolute;
+	top: 300px;	/* overall position of the red square */
+	right: 400px;
+	-webkit-transform: rotate(-40deg); /* css code to rotate something */
+}
+
+#second_triangle_sm {
+	border: solid blue 3px;
+	position: absolute;
+	left: -200px; /* this moves the image within the red square */
+	top: -100px;
+	-webkit-transform: rotate(40deg); /* we rotate in the exact opposite direction to offset previous rotation */
+}
+
+#eggs {
+    /*background: url(IMAGE_SOURCE); */
+  width: 800px;
+  height: 800px;
+  background: url(../images/eggs.jpg);
+  background-color: #1D17A0;
+  background-blend-mode: screen;
+  background-size: 100%;
+}
+
+
+
+
+
+#second_triangle_lg {
+	width: 400px;
+	height: 400px;
+	border: solid #C63252 3px;
+	overflow: hidden; /* we need this to crop the image */
+	position: absolute;
+	top: 300px;	/* overall position of the red square */
+	right: 400px;
+	-webkit-transform: rotate(-40deg); /* css code to rotate something */
+}
+
+#second_triangle_sm {
+	border: solid blue 3px;
+	position: absolute;
+	left: -200px; /* this moves the image within the red square */
+	top: -100px;
+	-webkit-transform: rotate(40deg); /* we rotate in the exact opposite direction to offset previous rotation */
+}
+
+#eggs {
+    /*background: url(IMAGE_SOURCE); */
+  width: 800px;
+  height: 800px;
+  background: url(../images/eggs.jpg);
+  background-color: #1D17A0;
+  background-blend-mode: screen;
+  background-size: 100%;
+}
+
+
+
+
+
+
+#first_triangle_lg {
+	width: 820px;
+	height: 820px;
+	border: solid #C63252 3px;
+	overflow: hidden; /* we need this to crop the image */
+	position: absolute;
+	top: -370px;	/* overall position of the red square */
+	right: -250px;
+	-webkit-transform: rotate(-40deg); /* css code to rotate something */
+}
+
+#first_triangle_sm {
+	border: solid blue 3px;
+	position: absolute;
+	left: -800px; /* this moves the image within the red square */
+	top: 200px;
+	-webkit-transform: rotate(40deg); /* we rotate in the exact opposite direction to offset previous rotation */
+}
+
+
+#people {
+    /*background: url(IMAGE_SOURCE); */
+  width: 2000px;
+  height:1000px;
+  background: url(../images/slide1.jpg);
+  background-color: #A0173B;
+  background-blend-mode: screen;
+  background-size: 100%;
+}
+
+
+
+
+ /*#triangle-up {
    border-left: 300px solid transparent;
    border-right: 600px solid transparent;
    border-bottom: 600px solid #C7365D;
    top: 30%;
    right: 5%;
    position: absolute;
- }
+ }*/
 
  #go_about {
 

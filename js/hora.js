@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+
+  	var rellax = new Rellax('.rellax');
+
+
+
   $('#go_about').click(function () {
     $('html, body').animate({
       scrollTop: $('#about').offset().top //Ofset calculated where scroll animaiton will be
