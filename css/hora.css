@@ -13,8 +13,9 @@ html,body {
   left: 120px;
   top: 20px;
   position: absolute;
-  font-family: arial black;
-  font-size:20px;
+  font-family: arial ;
+  font-weight: bold;
+  font-size:30px;
 }
 
 
@@ -76,6 +77,8 @@ html,body {
   height: 800px;
   background-color: #2314b4;
   background-size: 100%;
+  opacity: 0.85;
+
 }
 
 
@@ -106,6 +109,7 @@ html,body {
   height: 800px;
   background-color: #c7365d;
   background-size: 100%;
+    opacity: 1;
 }
 
 
@@ -132,10 +136,11 @@ html,body {
     /*background: url(IMAGE_SOURCE); */
   width: 900px;
   height: 900px;
-  background: url(../images/old.jpg);
+  background: url(../images/singing.jpg);
   background-color: #1D17A0;
   background-blend-mode: screen;
   background-size: 100%;
+    opacity: 0.85;
 }
 
 
@@ -164,6 +169,7 @@ html,body {
   height: 800px;
   background-color: #c7365d;
   background-size: 100%;
+    opacity: 1;
 }
 
 
@@ -196,6 +202,7 @@ html,body {
   background-color: #1D17A0;
   background-blend-mode: screen;
   background-size: 100%;
+    opacity: 0.85;
 }
 
 
@@ -213,19 +220,20 @@ html,body {
 #third_triangle_sm {
 	border: solid blue 3px;
 	position: absolute;
-	left: -200px; /* this moves the image within the red square */
-	top: -100px;
+	left: -275px; /* this moves the image within the red square */
+	top: -150px;
 	-webkit-transform: rotate(40deg); /* we rotate in the exact opposite direction to offset previous rotation */
 }
 
 #photos {
     /*background: url(IMAGE_SOURCE); */
-  width: 1000px;
-  height: 1000px;
-  background: url(../images/photos.jpg);
+  width: 500px;
+  height: 900px;
+  background: url(../images/marriage.jpg);
   background-color: #c7365d;
   background-blend-mode: screen;
   background-size: 100%;
+    opacity: 1;
 }
 
 
@@ -258,6 +266,7 @@ html,body {
   background-color: #1D17A0;
   background-blend-mode: screen;
   background-size: 100%;
+    opacity: 0.85;
 }
 
 
@@ -275,17 +284,17 @@ html,body {
 #first_triangle_sm {
 	border: solid blue 3px;
 	position: absolute;
-	left: -800px; /* this moves the image within the red square */
-	top: 200px;
+	left: -700px; /* this moves the image within the red square */
+	top: 100px;
 	-webkit-transform: rotate(40deg); /* we rotate in the exact opposite direction to offset previous rotation */
 }
 
 
 #people {
     /*background: url(IMAGE_SOURCE); */
-  width: 2000px;
-  height:1000px;
-  background: url(../images/slide1.jpg);
+  width: 1200px;
+  height:1500px;
+  background: url(../images/slide2.png);
   background-color: #A0173B;
   background-blend-mode: screen;
   background-size: 100%;
