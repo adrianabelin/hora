@@ -11,7 +11,7 @@
 <rect x="104.8" y="3.2" class="st0" width="3.2" height="3.2"/>
 <rect x="101" y="6.3" class="st0" width="3.9" height="3.2"/>
 <rect x="101.7" y="9.5" class="st1" width="3.2" height="3.2"/>
-<rect y="-1.2" class="st0" width="96.3" height="15.8"/>
+<rect y="-5" class="st0" width="96.3" height="23"/>
 <polyline class="st0" points="101.7,14.4 101.7,-1.2 98.3,-1.2 98.3,14.4 "/>
 <path class="st0" d="M101.7,12.7h-3.4H101.7z"/>
 </svg>
