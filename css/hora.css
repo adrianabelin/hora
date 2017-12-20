@@ -7,10 +7,33 @@ html,body {
   height: 100%;
 }
 
+
+
+
+
+
+
+#Calltoaction {
+  width: 100px;
+  height: 50px;
+  background: url(../images/Calltoaction.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+
 #summary1 {
   color: #c7365d;
   font-family: 'Crimson Text', serif;
   font-size: 30px;
+  line-height: 10px;
+}
+
+#subtitle1 {
+  color: #c7365d;
+  font-family: 'Crimson Text', serif;
+  font-size: 17px;
   line-height: 10px;
 }
 
@@ -41,110 +64,97 @@ html,body {
 
 
 #title3{
-  font-family: helvetica ;
+  font-family: helvetica;
   font-weight: bold;
   font-size:30px;
   padding-left: 120px;
 }
 
 
-#eventseffect {
+.events-container {
   overflow-x: scroll;
   overflow-y: hidden;
   width: 100%;
-  height: 250px;
   left: 120px;
   position: relative;
   white-space: nowrap;
 }
 
-#eventseffect div {
+.events-container div.event {
   width: 300px;
   height: 300px;
-  /*border: 1px solid gray;*/
-  padding: 20px;
-  margin: 5px;
   display: inline-block;
-  white-space: normal;
   background-size: 100%;
-  background-color: white;
+  overflow: hidden;
+  position:relative;
+  margin-right: 125px;
+  margin-bottom: 0px;
 }
 
-
-
-#eventseffect2 {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  width: 100%;
-  height: 350px;
-  left: 300px;
-  position: relative;
-  white-space: nowrap;
-}
-
-#eventseffect2 div {
-  width: 300px;
-  height: 300px;
-  /*border: 1px solid gray;*/
-  padding: 20px;
-  margin: 5px;
-  display: inline-block;
-  white-space: normal;
+.white-triangles {
+  background-color: none;
+  background-image: url(../images/white-triangles-small-padding-rounded.png);
   background-size: 100%;
-  background-color: white;
+  width: 330px;
+  height: 330px;
+  transition: transform 0.5s;
+  position: absolute;
+  top: -15px;
+  left: -15px;
 }
 
+.events-container div.event:hover .white-triangles {
+  transform: rotate(45deg);
+}
 
+.events-container div.event .text {
+  opacity: 0.0;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-family: helvetica ;
+  font-weight: bold;
+  font-size:30px;
+  white-space: normal;
+  padding: 40px;
+  background-color: #1D17A0;
+  margin: 10px;
+  border-radius: 40%;
+}
 
+#events-row2 {
+  margin-left: 200px;
+  margin-top: -50px;
+}
+
+.events-container div.event:hover .text {
+  opacity: 0.7;
+}
 
 #event1 {
-  width: 400px;
-  height: 400px;
-  background-size: 100%;
-  margin-left: 100px;
-  background-image: url(../images/event1.png);
-  overflow-x: scroll;
-  overflow-y: hidden;
+  background-image: url(../images/women-rounded.png);
 }
 
 #event2 {
-  width: 400px;
-  height: 400px;
-  background-size: 100%;
-  margin-left: 100px;
-  background-image: url(../images/event2.png);
-  overflow-x: scroll;
-  overflow-y: hidden;
+  background-image: url(../images/romanian-dance.png);
 }
 
 #event3 {
-  width: 400px;
-  height: 400px;
-  background-size: 100%;
-  margin-left: 100px;
-  background-image: url(../images/event1.png);
-  overflow-x: scroll;
-  overflow-y: hidden;
+  background-image: url(../images/boys.png);
 }
 
 #event4 {
-  width: 400px;
-  height: 400px;
-  background-size: 100%;
-  margin-left: 800px;
-  background-image: url(../images/event1.png);
-  overflow-x: scroll;
-  overflow-y: hidden;
+  background-image: url(../images/plates.png);
 }
 
 #event5 {
-  width: 400px;
-  height: 400px;
-  background-size: 100%;
-  margin-left: 1000px;
-  background-image: url(../images/event1.png);
-  overflow-x: scroll;
-  overflow-y: hidden;
+  background-image: url(../images/smiling.png);
 }
 
 
@@ -466,7 +476,7 @@ html,body {
   background-color: #1D17A0;
   background-blend-mode: screen;
   background-size: 100%;
-    opacity: 0.85;
+  opacity: 0.85;
 }
 
 
