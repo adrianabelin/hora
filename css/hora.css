@@ -9,10 +9,6 @@ html,body {
 
 
 
-
-
-
-
 #Calltoaction {
   width: 100px;
   height: 50px;
@@ -38,18 +34,22 @@ html,body {
 }
 
 #news-boxes {
-  overflow-x: scroll;
+  overflow-x: none;
   overflow-y: hidden;
   width: 100%;
-  height: 700px;
-  left: 120px;
+  height: 670px;
   position: relative;
   white-space: nowrap;
 }
 
-#news-boxes div {
+#gap {
+  width: 120px;
+  display: inline-block;
+}
+
+#news-boxes div.news-box {
   width: 325px;
-  height: 750px;
+  height: 700px;
   /*border: 1px solid gray;*/
   padding: 20px;
   margin: 5px;
@@ -72,7 +72,7 @@ html,body {
 
 
 .events-container {
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
   left: 120px;
@@ -123,10 +123,26 @@ html,body {
   font-size:30px;
   white-space: normal;
   padding: 40px;
-  background-color: #1D17A0;
+  background-color: rgba(29, 23, 160, 0.7);
   margin: 10px;
   border-radius: 40%;
+  line-height: 35px;
 }
+
+.text .subtitle {
+  position: absolute;
+  z-index: 10000;
+  top: -7px;
+  left: 35px;
+  text-align: right;
+  width: 200px;
+  padding-top: 220px;
+  font-family: helvetica ;
+  font-size:20px;
+  white-space: normal;
+}
+
+
 
 #events-row2 {
   margin-left: 200px;
@@ -134,7 +150,7 @@ html,body {
 }
 
 .events-container div.event:hover .text {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 #event1 {
@@ -198,6 +214,30 @@ html,body {
   background-repeat: no-repeat;
 }
 
+#boximage4 {
+  background-image: url(../images/sports.png);
+  height: 190px;
+  width: 326px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#boximage5 {
+  background-image: url(../images/musical.png);
+  height: 190px;
+  width: 326px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#boximage6 {
+  background-image: url(../images/bowls.png);
+  height: 190px;
+  width: 326px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 
 #title {
   width: 600px;
@@ -214,7 +254,7 @@ html,body {
   width: 600px;
   height: 300px;
   left: 120px;
-  top: 400px;
+  top: 440px;
   position: absolute;
   font-family: helvetica ;
   font-weight: bold;
@@ -225,7 +265,7 @@ html,body {
   width: 600px;
   height: 300px;
   left: 120px;
-  top: 400px;
+  top: 480px;
   position: absolute;
   font-family: 'Crimson Text', serif;
   LINE-HEIGHT:20px;
@@ -234,9 +274,23 @@ html,body {
 
 
 
+#grey {
+  width: 2000px;
+  height: 180px;
+  position:absolute;
+  top: 750px;
+  background-color: #e0e0e0;
+  background-image:
+    linear-gradient(
+      white, #e0e0e0
+    );
+    z-index: -10;
+}
+
+
 #container {
   width: 100%;
-  height: 2700px;
+  height: 2400px;
   overflow: hidden;
   position: absolute;
 }
@@ -472,7 +526,7 @@ html,body {
     /*background: url(IMAGE_SOURCE); */
   width: 800px;
   height: 800px;
-  background: url(../images/eggs.jpg);
+  background: url(../images/eggs.png);
   background-color: #1D17A0;
   background-blend-mode: screen;
   background-size: 100%;
@@ -504,7 +558,7 @@ html,body {
     /*background: url(IMAGE_SOURCE); */
   width: 1200px;
   height:1500px;
-  background: url(../images/slide2.png);
+  background: url(../images/slide3.png);
   background-color: #A0173B;
   background-blend-mode: screen;
   background-size: 100%;
@@ -558,6 +612,7 @@ html,body {
     left: 0;
     background-image: url(../images/horamenu_alt.svg);
     text-indent: 10px;
+    z-index: 10;
 }
 
 .vertical-menu a {
@@ -592,7 +647,8 @@ html,body {
     outline-style: solid;
     outline-width: 5px;*/
     z-index: 30;
-    padding-top: 150px;
+    margin-top: 130px;
+    padding-top: 20px;
 }
 
 #title2 {
@@ -605,8 +661,9 @@ html,body {
 
 #events {
     background-color: none;
-    height: 800px;
     width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
     /*outline-color: yellow;
     outline-style: solid;
     outline-width: 5px;*/
