@@ -416,7 +416,7 @@ html,body {
 	overflow: hidden; /* we need this to crop the image */
 	position: absolute;
 	top: 765px;	/* overall position of the red square */
-	right: 505px;
+	left: 675px;
 	-webkit-transform: rotate(-40deg); /* css code to rotate something */
 }
 
@@ -477,7 +477,7 @@ html,body {
 	overflow: hidden; /* we need this to crop the image */
 	position: absolute;
 	top: 600px;	/* overall position of the red square */
-	right: 175px;
+	left: 805px;
 	-webkit-transform: rotate(-40deg); /* css code to rotate something */
 }
 
@@ -510,7 +510,7 @@ html,body {
 	overflow: hidden; /* we need this to crop the image */
 	position: absolute;
 	top: 300px;	/* overall position of the red square */
-	right: 400px;
+	left: 480px;
 	-webkit-transform: rotate(-40deg); /* css code to rotate something */
 }
 
@@ -541,7 +541,7 @@ html,body {
 	overflow: hidden; /* we need this to crop the image */
 	position: absolute;
 	top: -370px;	/* overall position of the red square */
-	right: -250px;
+	left: 710px;
 	-webkit-transform: rotate(-40deg); /* css code to rotate something */
 }
 
