@@ -9,15 +9,67 @@ html,body {
 
 
 
-#Calltoaction {
+#title {
+  width: 600px;
+  height: 300px;
+  left: 120px;
+  top: 20px;
+  position: absolute;
+  font-family: helvetica ;
+  font-weight: bold;
+  font-size:30px;
+}
+
+
+ #paragraph1 {
+   width: 600px;
+   height: 300px;
+   left: 120px;
+   top: 20px;
+   position: absolute;
+   font-family: 'Crimson Text', serif;
+   LINE-HEIGHT:20px;
+   font-size: 17px;
+ }
+
+
+#calltoaction {
   width: 100px;
   height: 50px;
-  background: url(../images/Calltoaction.png);
+  background: url(../images/calltoaction.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 
+#title1 {
+  width: 600px;
+  height: 300px;
+  left: 120px;
+  top: 440px;
+  position: absolute;
+  font-family: helvetica ;
+  font-weight: bold;
+  font-size:30px;
+}
+
+#paragraph2 {
+  width: 600px;
+  height: 300px;
+  left: 120px;
+  top: 480px;
+  position: absolute;
+  font-family: 'Crimson Text', serif;
+  LINE-HEIGHT:20px;
+  font-size: 17px;
+}
+
+#title2 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size:30px;
+  padding-left: 120px;
+}
 
 #summary1 {
   color: #c7365d;
@@ -174,11 +226,6 @@ html,body {
 }
 
 
-
-
-
-
-
 #button {
   background-image: url(../images/button3.png);
   height: 75px;
@@ -237,41 +284,6 @@ html,body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
-
-#title {
-  width: 600px;
-  height: 300px;
-  left: 120px;
-  top: 20px;
-  position: absolute;
-  font-family: helvetica ;
-  font-weight: bold;
-  font-size:30px;
-}
-
-#title1 {
-  width: 600px;
-  height: 300px;
-  left: 120px;
-  top: 440px;
-  position: absolute;
-  font-family: helvetica ;
-  font-weight: bold;
-  font-size:30px;
-}
-
-#paragraph2 {
-  width: 600px;
-  height: 300px;
-  left: 120px;
-  top: 480px;
-  position: absolute;
-  font-family: 'Crimson Text', serif;
-  LINE-HEIGHT:20px;
-  font-size: 17px;
-}
-
 
 
 #grey {
@@ -592,18 +604,6 @@ html,body {
 
  }
 
-
- #paragraph1 {
-   width: 600px;
-   height: 300px;
-   left: 120px;
-   top: 20px;
-   position: absolute;
-   font-family: 'Crimson Text', serif;
-   LINE-HEIGHT:20px;
-   font-size: 17px;
- }
-
 .vertical-menu {
     width: 100px;
     height: 100%;
@@ -649,13 +649,6 @@ html,body {
     z-index: 30;
     margin-top: 130px;
     padding-top: 20px;
-}
-
-#title2 {
-  font-family: helvetica;
-  font-weight: bold;
-  font-size:30px;
-  padding-left: 120px;
 }
 
 
